@@ -20,12 +20,12 @@ class Donor extends StatelessWidget {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar.png'),
+                backgroundImage: AssetImage('assets/logo.jpg'),
               ),
               title: Text(
-                'John Judah',
+                'Kulsoom',
               ),
-              subtitle: Text('2348031980943'),
+              subtitle: Text('Syria/Dmashaq/free clothing'),
               trailing: Icon(Icons.keyboard_arrow_right),
               onTap: () {
                 Text('Another data');
@@ -35,47 +35,16 @@ class Donor extends StatelessWidget {
               height: 1.0,
               indent: 1.0,
             ),
+            
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar_purple.png'),
-              ),
-              title: Text('Bisola Akanbi'),
-              subtitle: Text('2348031980943'),
-              trailing: Icon(Icons.keyboard_arrow_right),
-              onTap: () {
-                Text('Another data');
-              },
-              onLongPress: () {
-                Text('Data');
-              },
-            ),
-            new Divider(
-              height: 1.0,
-              indent: 1.0,
-            ),
-            ListTile(
-              leading: CircleAvatar(
-                backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar_brown.png'),
-              ),
-              title: Text('Eghosa Iku'),
-              subtitle: Text('2348031980943'),
-              trailing: Icon(Icons.keyboard_arrow_right),
-            ),
-            new Divider(
-              height: 1.0,
-              indent: 1.0,
-            ),
-            ListTile(
-              leading: CircleAvatar(
-                backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar.png'),
+                backgroundImage: AssetImage('assets/charity.jpg'),
               ),
               title: Text(
-                'Andrew Ndebuisi',
+                'Maria B',
               ),
-              subtitle: Text('2348034280943'),
+              subtitle: Text('PAK/Karachi/Defence Qurbani Meet 100 per'),
               trailing: Icon(Icons.keyboard_arrow_right),
             ),
             new Divider(
@@ -85,10 +54,10 @@ class Donor extends StatelessWidget {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar_green.png'),
+                backgroundImage: AssetImage('assets/bussiness.jpg'),
               ),
               title: Text('Arinze Dayo'),
-              subtitle: Text('2348031980943'),
+              subtitle: Text('PAK/Karachi/Malir Free food 20 person'),
               trailing: Icon(Icons.keyboard_arrow_right),
             ),
             new Divider(
@@ -98,10 +67,10 @@ class Donor extends StatelessWidget {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar_red.png'),
+                backgroundImage: AssetImage('assets/logo.jpg'),
               ),
-              title: Text('Wakara Zimbu'),
-              subtitle: Text('2348031980943'),
+              title: Text('EDHI'),
+              subtitle: Text('FREE PAK TEST CLINIC'),
               trailing: Icon(Icons.keyboard_arrow_right),
             ),
             new Divider(
@@ -111,38 +80,13 @@ class Donor extends StatelessWidget {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar_yellow.png'),
+                backgroundImage: AssetImage('assets/hotel.jpg'),
               ),
-              title: Text('Emaechi Chinedu'),
-              subtitle: Text('2348031980943'),
+              title: Text('saylani'),
+              subtitle: Text('PAK/KHI/GULSHAN CLOTHING 5 MALE '),
               trailing: Icon(Icons.keyboard_arrow_right),
             ),
-            new Divider(
-              height: 1.0,
-              indent: 10.0,
-            ),
-            ListTile(
-              leading: CircleAvatar(
-                backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar.png'),
-              ),
-              title: Text('Osaretin Igbinomwanhia'),
-              subtitle: Text('2348031980943'),
-              trailing: Icon(Icons.keyboard_arrow_right),
-            ),
-            new Divider(
-              height: 1.0,
-              indent: 10.0,
-            ),
-            ListTile(
-              leading: CircleAvatar(
-                backgroundColor: Colors.white,
-                backgroundImage: AssetImage('images/avatar_brown.png'),
-              ),
-              title: Text('Osagumwenro Nosa'),
-              subtitle: Text('2348031980943'),
-              trailing: Icon(Icons.keyboard_arrow_right),
-            ),
+            
           ],
         ),
       ),

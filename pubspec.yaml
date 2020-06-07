@@ -63,6 +63,8 @@ flutter:
    - assets/second.jpg
    - assets/hotel.jpg
    - assets/furniture.jpg
+   - assets/needy.jpeg
+   - assets/bussiness.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -79,6 +81,9 @@ flutter:
     - family: CentraleSansRegular
       fonts:
         - asset: assets/CentraleSansRegular.otf
+    - family: Bangers
+      fonts:
+        - asset: assets/fonts/Bangers.ttf
           # weight: 700
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic

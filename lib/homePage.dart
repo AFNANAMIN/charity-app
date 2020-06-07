@@ -41,19 +41,19 @@ class _HomePageState extends State<HomePage> {
 
         items: [
           BottomNavigationBarItem(
-            icon: Icon(LineAwesomeIcons.heart_o),
+            icon: Icon(LineAwesomeIcons.user),
             title: Text("Heart"),
           ),
           BottomNavigationBarItem(
-            icon: Icon(LineAwesomeIcons.search),
+            icon: Icon(LineAwesomeIcons.user),
             title: Text("Search"),
           ),
           BottomNavigationBarItem(
-            icon: Icon(LineAwesomeIcons.signal),
+            icon: Icon(LineAwesomeIcons.user),
             title: Text("Signal"),
           ),
           BottomNavigationBarItem(
-            icon: Icon(LineAwesomeIcons.bell_o),
+            icon: Icon(LineAwesomeIcons.search),
             title: Text("Notification"),
           ),
           BottomNavigationBarItem(

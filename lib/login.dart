@@ -22,12 +22,12 @@ class _LoginState extends State<Login> {
   child: Column(
     children: <Widget>[
       UserAccountsDrawerHeader(
-        accountName: Text("alakhirah charity app"),
+        accountName: Text("AL KHIRAT APP"),
         accountEmail: Text("akh@alakirah.com"),
         
         otherAccountsPictures: <Widget>[
           CircleAvatar(
-            backgroundImage: AssetImage('assets/logo.jpeg'),
+            backgroundImage: AssetImage('assets/charity.jpg'),
             
             
 
@@ -44,6 +44,7 @@ class _LoginState extends State<Login> {
       ListTile(
         title: new Text("Promotions"),
         leading: new Icon(Icons.local_offer),
+        
       )
     ],
   ),

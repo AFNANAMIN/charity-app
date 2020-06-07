@@ -79,7 +79,25 @@ class _signUp extends State<SignUp> {
                     Padding(
                         padding: EdgeInsets.all(12.0),
                         child: Text(
-                          "Register as :",
+                          "Nic: ",
+                          style: TextStyle(color: Colors.black, fontSize: 16.0),
+                        )),
+                    Container(
+                      width: 200,
+                      child: TextField(
+                        decoration: new InputDecoration(
+                            hintText: "Enter Govt. Isuued Nic Number ",
+                            labelText: "Nic"),
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: <Widget>[
+                    Padding(
+                        padding: EdgeInsets.all(12.0),
+                        child: Text(
+                          "User Role :",
                           style: TextStyle(color: Colors.black, fontSize: 16.0),
                         )),
                     Column(
@@ -123,7 +141,66 @@ class _signUp extends State<SignUp> {
                                   radioMethod(rv);
                                 }),
                             Text(
-                              "Bussiness Professional",
+                              "Partner",
+                              style: TextStyle(
+                                  color: Colors.black, fontSize: 16.0),
+                            )
+                          ],
+                        ),
+                      ],
+                    )
+                  ],
+                ),
+                Row(
+                  children: <Widget>[
+                    Padding(
+                        padding: EdgeInsets.all(12.0),
+                        child: Text(
+                          "User Type :",
+                          style: TextStyle(color: Colors.black, fontSize: 16.0),
+                        )),
+                    Column(
+                      children: <Widget>[
+                        Row(
+                          children: <Widget>[
+                            Radio(
+                                value: 1,
+                                groupValue: radioValue,
+                                onChanged: (int rv) {
+                                  radioMethod(rv);
+                                }),
+                            Text(
+                              "Indivisual",
+                              style: TextStyle(
+                                  color: Colors.black, fontSize: 16.0),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Radio(
+                                value: 2,
+                                groupValue: radioValue,
+                                onChanged: (int rv) {
+                                  radioMethod(rv);
+                                }),
+                            Text(
+                              "Bussiness",
+                              style: TextStyle(
+                                  color: Colors.black, fontSize: 16.0),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Radio(
+                                value: 3,
+                                groupValue: radioValue,
+                                onChanged: (int rv) {
+                                  radioMethod(rv);
+                                }),
+                            Text(
+                              "NGO",
                               style: TextStyle(
                                   color: Colors.black, fontSize: 16.0),
                             )
@@ -134,23 +211,7 @@ class _signUp extends State<SignUp> {
                   ],
                 ),
                 
-                Row(
-                  children: <Widget>[
-                    Padding(
-                        padding: EdgeInsets.all(12.0),
-                        child: Text(
-                          "Opt for weekly Newsletter :",
-                          style: TextStyle(color: Colors.black, fontSize: 16.0),
-                        )),
-                    Switch(
-                        value: switchValue,
-                        onChanged: (bool sv) {
-                          setState(() {
-                            switchValue = sv;
-                          });
-                        })
-                  ],
-                ),
+                
                 Row(
                   children: <Widget>[
                     Checkbox(
@@ -177,7 +238,7 @@ class _signUp extends State<SignUp> {
                     },
                     color: Colors.deepPurpleAccent,
                     child: Text(
-                      "Next",
+                      "Sumbit",
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
